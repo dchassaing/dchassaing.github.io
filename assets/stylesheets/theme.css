@@ -23,9 +23,8 @@ body {
 */
 
 .thumbnail {
-  padding-bottom: 25px;
-  padding-top: 25px;
-  border-width: thin red;
+  width: 75px;
+  height: 50px;
 }
 
 p {
