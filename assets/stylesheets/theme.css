@@ -15,7 +15,10 @@ body {
   display: flex;
   padding: 15px;
 }
-
+img{
+  content width: 60px;
+  content height: 30px;
+}
 .thumbnail {
   padding: 5px;
   border-width: thin red;
