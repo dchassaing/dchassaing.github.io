@@ -16,6 +16,11 @@ body {
   padding: 15px;
 }
 
+.thumbnail {
+  padding: 15px;
+  border-width: thin red;
+}
+
 p {
   margin: 0 15px;
 }
