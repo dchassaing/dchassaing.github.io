@@ -15,12 +15,16 @@ body {
   display: flex;
   padding: 15px;
 }
-img{
-  content width: 60px;
-  content height: 30px;
+
+/*img{
+  content-width: 60px;
+  content-height: 30px;
 }
+*/
+
 .thumbnail {
-  padding: 5px;
+  padding-bottom: 25px;
+  padding-top: 25px;
   border-width: thin red;
 }
 
