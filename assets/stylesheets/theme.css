@@ -16,15 +16,9 @@ body {
   padding: 15px;
 }
 
-/*img{
-  content-width: 60px;
-  content-height: 30px;
-}
-*/
-
 .thumbnail {
-  width: 75px;
-  height: 50px;
+  width: 250px;
+  height: 250px;
 }
 
 p {
