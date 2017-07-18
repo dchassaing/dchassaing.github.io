@@ -28,10 +28,24 @@ body {
   padding: 15px;
 }
 
+.navbar {
+  display: flex;
+  text-decoration: none;
+}
+
+.navbar:first-child {
+  justify-content: flex-start;
+}
+
 .thumbnail {
   width: 250px;
   height: 250px;
   border-radius: 50%;
+
+}
+
+.navbar:third-child {
+  justify-content: flex-start;
 }
 
 p {
