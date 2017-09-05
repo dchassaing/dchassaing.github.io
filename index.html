@@ -5,6 +5,8 @@
     <title>Delia Chassaing</title>
     <link rel="stylesheet" type="text/css" href="assets/stylesheets/theme.css">
     <meta content="width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes" name="viewport">
+    <script src='assets/scripts/jquery-3.1.1.min.js'></script>
+    <script src='assets/scripts/main.js'></script>
 </head>
 
 <body>
@@ -30,19 +32,20 @@
         <div id="projects">
             <h1>Completed Projects</h1>
             <ul>
-                    <li><a href="https://dchassaing.github.io/cat_lady_scale/">Cat Lady Scale</a></li>
-                    <img src="assets/images/cat-lady.png" alt="cat lady scale thumbnail" class="project-pics"/>
-                    <li><a href="https://dchassaing.github.io/Kats_costume_shop">Kat's Costume Shop</a></li>
-                    <img src="assets/images/kat-costume.png" alt="cat lady scale thumbnail" class="project-pics"/>
-                    <li><a href="https://dchassaing.github.io/two_truths_lie/">Two Truths and a Lie</a></li>
-                    <img src="assets/images/two-truths-lie.png" alt="cat lady scale thumbnail" class="project-pics"/>
+                <li><a href="https://dchassaing.github.io/cat_lady_scale/">Cat Lady Scale</a></li>
+                <img src="assets/images/cat-lady.png" alt="cat lady scale thumbnail" class="project-pics" />
+                <li><a href="https://dchassaing.github.io/Kats_costume_shop">Kat's Costume Shop</a></li>
+                <img src="assets/images/kat-costume.png" alt="Kat's costume shop thumbnail" class="project-pics" />
+                <li><a href="https://dchassaing.github.io/two_truths_lie/">Two Truths and a Lie</a></li>
+                <img src="assets/images/two-truths-lie.png" alt="Two truths and a lie thumbnail" class="project-pics" />
             </ul>
 
             <h1>Projects in Progress</h1>
             <ul>
-                    <li><a href="https://dchassaing.github.io/web_group_project_2/">Cake Website</a></li>
-                    <li><a href="hhttps://dchassaing.github.io/family-locator/">Fam Tracker</a></li>
-                    <li><a href="https://github.com/dchassaing/">Code NOOB Project</a></li>
+                <li><a href="https://dchassaing.github.io/web_group_project_2/">Cake Website</a></li>
+                <img src="assets/images/cake-website.png" alt="cake website thumbnail" class="project-pics" />
+                <li><a href="https://dchassaing.github.io/pycharm_code">Python/Arcade Games</a></li>
+                <img src="assets/images/python-work.png" alt="Arcade games thumbnail" class="project-pics" />
             </ul>
         </div>
 
@@ -51,10 +54,27 @@
                 You can reach me at delia.chassaing@gmail.com</br>
                 GitHub is github.com/dchassaing
             </p>
+            <h2>Contact Me</h2>
+            <form onsubmit="this.handleSubmit" class="contact-me">
+                <label>Name
+              <input type="text" name="name" value=this.name>
+              </label>
+            </br>
+                <label>Email Address
+              <input type="text" name="email" value=this.text>
+              </label>
+            </br>
+                <label>Phone Number
+              <input type="text" name="phone" value=this.phone>
+              </label>
+            </br>
+                <label>Message
+              <input type="text" name="message" value=this.value>
+              </label>
+            </form>
 
         </div>
-        <!-- <script src='assets/scripts/jquery-3.1.1.min.js'></script>
-    <script src='assets/scripts/main.js'></script> -->
+
 </body>
 
 </html>
