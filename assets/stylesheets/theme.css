@@ -43,3 +43,8 @@ p {
 #contact p{
   margin: 0;
 }
+
+.project-pics {
+  width: 600px;
+  height: 300px;
+}
