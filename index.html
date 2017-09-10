@@ -10,74 +10,163 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <header>
-        <nav>
-            <ul class="navbar">
+    <div class="nav">
+        <div class="container">
+            <ul class="list-unstyled list-inline pull-right">
                 <li><a href="#projects">PROJECTS</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
-        </nav>
-        <div class='intro'>
-            <h1>Welcome to my Coding Journey!</h1>
-            <p>
-                <!-- want to style this with lines that write themselves as the webpage loads -->
-                Name: Delia Chassaing<br> Nicknames: Del, Dell<br>
-                <!-- this part would delete and rewrite itself with all my nicknames -->
-                Languages: French, German, Italian, C, Java, HTML, CSS, and Javascript!
-            </p>
-            <img src="assets/images/DChassaingPicture.jpg" alt="professional headshot" class="thumbnail" />
         </div>
+    </div>
 
+    <div class="jumbotron">
+        <div class="inline row">
+            <div class="col-sm-9">
+                <h1>Welcome to my Coding Journey!</h1>
+                <p>
+                    <!-- want to style this with lines that write themselves as the webpage loads -->
+                    Name: Delia Chassaing<br> Nicknames: Del, Dell<br>
+                    <!-- this part would delete and rewrite itself with all my nicknames -->
+                    Languages: French, German, Italian, C, Java, HTML, CSS, and Javascript!
+                </p>
+            </div>
 
-        <div id="projects">
-            <h1>Completed Projects</h1>
-            <ul>
-                <li><a href="https://dchassaing.github.io/cat_lady_scale/">Cat Lady Scale</a></li>
-                <img src="assets/images/cat-lady.png" alt="cat lady scale thumbnail" class="project-pics" />
-                <li><a href="https://dchassaing.github.io/Kats_costume_shop">Kat's Costume Shop</a></li>
-                <img src="assets/images/kat-costume.png" alt="Kat's costume shop thumbnail" class="project-pics" />
-                <li><a href="https://dchassaing.github.io/two_truths_lie/">Two Truths and a Lie</a></li>
-                <img src="assets/images/two-truths-lie.png" alt="Two truths and a lie thumbnail" class="project-pics" />
-            </ul>
+            <div class="col-sm-3">
+                <img src="assets/images/DChassaingPicture.jpg" alt="professional headshot" class="headshot" />
+            </div>
 
-            <h1>Projects in Progress</h1>
-            <ul>
-                <li><a href="https://dchassaing.github.io/web_group_project_2/">Cake Website</a></li>
-                <img src="assets/images/cake-website.png" alt="cake website thumbnail" class="project-pics" />
-                <li><a href="https://dchassaing.github.io/pycharm_code">Python/Arcade Games</a></li>
-                <img src="assets/images/python-work.png" alt="Arcade games thumbnail" class="project-pics" />
-            </ul>
         </div>
+    </div>
 
-        <div id="contact">
-            <p>
-                You can reach me at delia.chassaing@gmail.com</br>
-                GitHub is github.com/dchassaing
-            </p>
-            <h2>Contact Me</h2>
-            <form onsubmit="this.handleSubmit" class="contact-me">
-                <label>Name
+
+
+    <div class="container">
+        <h1>Completed Projects</h1>
+        <div class="row">
+            <div class="row-eq-height">
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <a href="https://dchassaing.github.io/cat_lady_scale/">
+                            <div class="caption">
+                                <h4>Cat Lady Scale</h4>
+                                <p>
+
+                                </p>
+                            </div>
+                            <img src="assets/images/cat-lady.png" alt="cat lady scale thumbnail" class="projects" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <a href="https://dchassaing.github.io/Kats_costume_shop">
+                            <div class="caption">
+                                <h4>Kat's Costume Shop</h4>
+                                <p>
+
+                                </p>
+                            </div>
+                            <img src="assets/images/kat-costume.png" alt="Kat's costume shop thumbnail" class="projects"/>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <a href="https://dchassaing.github.io/two_truths_lie">
+                            <div class="caption">
+                                <h4>Two Truths and a Lie</h4>
+                                <p>
+
+                                </p>
+                            </div>
+                            <img src="assets/images/two-truths-lie.png" alt="two truths and a lie thumbnail" class="projects"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <h1>Projects in Progress</h1>
+        <div class="row-eq-height">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <a href="https://dchassaing.github.io/web_group_project_2">
+                        <div class="caption">
+                            <h4>Cake Baking Website</h4>
+                            <p>
+
+                            </p>
+                        </div>
+                        <img src="assets/images/cake-website.png" alt="Cake Website thumbnail" class="projects"/>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <a href="https://github.com/dchassaing/pycharm_code">
+                        <div class="caption">
+                            <h4>Kat's Costume Shop</h4>
+                            <p>
+
+                            </p>
+                        </div>
+                        <img src="assets/images/python-work.png" alt="Arcade Games thumbnail" class="projects"/>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <a href="https://handy-capp.herokuapp.com">
+                        <div class="caption">
+                            <h4>Handy-Capp App</h4>
+                            <p>
+
+                            </p>
+                        </div>
+                        <img src="assets/images/handycap.png" alt="Handycap app thumbnail" class="projects"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <p>
+            You can reach me at delia.chassaing@gmail.com</br>
+            GitHub is github.com/dchassaing
+        </p>
+        <h2>Contact Me</h2>
+        <form onsubmit="this.handleSubmit" class="contact-me">
+            <label>Name
               <input type="text" name="name" value=this.name>
               </label>
-                </br>
-                <label>Email Address
+            </br>
+            <label>Email Address
               <input type="text" name="email" value=this.text>
               </label>
-                </br>
-                <label>Phone Number
+            </br>
+            <label>Phone Number
               <input type="tel" name="phone" value=this.phone>
               </label>
-                </br>
-                <label>Message
+            </br>
+            <label>Message
               <input type="text-area" name="message" value=this.value>
               </label>
-            </form>
+        </form>
 
-        </div>
-        <script src='assets/scripts/jquery-3.1.1.min.js'></script>
-        <script src='assets/scripts/main.js'></script>
-          </div>
+    </div>
+
+    <script src='assets/scripts/jquery-3.1.1.min.js'></script>
+    <script src='assets/scripts/main.js'></script>
 </body>
 
 </html>

@@ -10,42 +10,45 @@ html {
 }
 
 body {
-  background-color: #ffffff;
-  color: black;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  padding-top: 50px;
 }
 
-.navbar {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
-.thumbnail {
-  width: 250px;
-  height: 250px;
+.headshot {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 
-.intro {
-  display: flex;
-  flex-flow: nowrap;
-  justify-content: space-between;
+.thumbnail {
+  overflow: hidden;
+  position: relative;
 }
 
-p {
-  margin: 0 15px;
+.caption {
+      position:absolute;
+      top:0;
+      right:0;
+      background:rgba(25, 188, 156, 0.56);
+      width:100%;
+      height:100%;
+      padding:2%;
+      display: none;
+      text-align: left;
+      color:#ffffff !important;
+      z-index:1;
+      visibility: hidden;
+      opacity: 0;
+
+      /*transition effect for funzies*/
+      transition: opacity .2s, visibility .2s;
 }
 
-#contact p{
-  margin: 0;
+.thumbnail:hover .caption {
+  visibility: visible;
+  opacity: 1;
 }
 
-.project-pics {
-  width: 700px;
-  height: 300px;
+.projects {
+  width: 600px;
+  height: 200px;
 }
