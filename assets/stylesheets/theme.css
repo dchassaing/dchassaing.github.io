@@ -21,6 +21,7 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 
@@ -45,6 +46,6 @@ p {
 }
 
 .project-pics {
-  width: 600px;
+  width: 700px;
   height: 300px;
 }
